@@ -1,16 +1,29 @@
 
 # Password Checker
 
-MIN_LEN = 5
-MAX_LEN = 20
 
-password = input("Enter a password between {} and {} characters long: ".format(MIN_LEN, MAX_LEN))
-star_list = ""
+def main():
+    min_len = 5
+    max_len = 20
 
-while MIN_LEN > len(password) or len(password) > MAX_LEN:
-    password = input("Enter a valid password between {} and {} characters long:".format(MIN_LEN, MAX_LEN))
+    password = get_password(max_len, min_len)
+    star_list = ""
 
-for x in range(0, len(password)):
-    star_list = star_list + "*"
+    while min_len > len(password) or len(password) > max_len:
+        password = get_password(max_len, min_len)
 
-print(star_list)
+    star_print(password, star_list)
+
+
+def star_print(password, star_list):
+    for x in range(0, len(password)):
+        star_list = star_list + "*"
+    print(star_list)
+
+
+def get_password(max_len, min_len):
+    password = input("Enter a password between {} and {} characters long: ".format(max_len, min_len))
+    return password
+
+
+main()
