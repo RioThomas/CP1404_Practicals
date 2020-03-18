@@ -7,6 +7,7 @@ import random
 def main():
     while True:
         score = input("Enter score or 'r' for a random score: ")
+        
         if score == "r":
             score = random.randint(1, 100)
             print("Score = " + str(score))
