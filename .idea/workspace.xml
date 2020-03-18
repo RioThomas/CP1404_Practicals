@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15eb7969-6fa0-4c25-9623-97943a466f80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Prac_04/lists_warmup.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Prac_04/subject_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prac_04/total_income.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prac_03/broken_score_refactored.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prac_03/broken_score_refactored.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
       <recent name="D:\LIBRARIES\Documents\Github\CP1404_Practicals\Prac_03" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.total_income">
+  <component name="RunManager" selected="Python.subject_reader">
     <configuration name="broken_score_refactored" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Lab Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temperatures_refactored" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="subject_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Lab Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,12 +78,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prac_03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prac_04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prac_03/temperatures_refactored.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prac_04/subject_reader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.subject_reader" />
         <item itemvalue="Python.total_income" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.testing file" />
         <item itemvalue="Python.broken_score_refactored" />
-        <item itemvalue="Python.temperatures_refactored" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +187,7 @@
       <workItem from="1583646760958" duration="5263000" />
       <workItem from="1583993017620" duration="1286000" />
       <workItem from="1583996652678" duration="554000" />
-      <workItem from="1584503312666" duration="2267000" />
+      <workItem from="1584503312666" duration="2526000" />
     </task>
     <task id="LOCAL-00001" summary="Add Password Checker">
       <created>1583653163190</created>
@@ -220,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583715545625</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added warm-up">
+      <created>1584575473988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584575473988</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added cumulative income calculator, (total_income.py).">
+      <created>1584575539594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584575539594</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,17 +253,19 @@
     <MESSAGE value="Refactor password check program to use functions." />
     <MESSAGE value="Add temperature + broken score python files." />
     <MESSAGE value="Refactor temperature + broken score." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor temperature + broken score." />
+    <MESSAGE value="added warm-up" />
+    <MESSAGE value="added cumulative income calculator, (total_income.py)." />
+    <option name="LAST_COMMIT_MESSAGE" value="added cumulative income calculator, (total_income.py)." />
   </component>
   <component name="WindowStateProjectService">
     <state x="720" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583638887165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583638887165" />
-    <state x="982" y="214" key="CommitChangelistDialog2" timestamp="1584575472672">
+    <state x="982" y="214" key="CommitChangelistDialog2" timestamp="1584575538873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="982" y="214" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584575472672" />
+    <state x="982" y="214" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584575538873" />
     <state x="743" y="474" key="FileChooserDialogImpl" timestamp="1583653061835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -261,22 +274,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="817" y="413" width="464" height="213" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583646795753" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1583997207011">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1584575592552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583997207011" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1583997207011">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584575592552" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1584575592552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583997207011" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1583997207011">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584575592552" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1584575592551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583997207011" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1583997207011">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584575592551" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1584575592552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583997207011" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584575592552" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1582678311071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -305,13 +318,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="179" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583712041142" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1583386233074">
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1584575563675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583386233074" />
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584575563675" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CP1404_Practicals$testing.coverage" NAME="testing Coverage Results" MODIFIED="1583997026112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
+    <SUITE FILE_PATH="coverage/CP1404_Practicals$subject_reader.coverage" NAME="subject_reader Coverage Results" MODIFIED="1584575592541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_04" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$password_checker__1_.coverage" NAME="password_checker (1) Coverage Results" MODIFIED="1583712237191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$testing_file.coverage" NAME="testing file Coverage Results" MODIFIED="1583993264851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$broken_score_refactored.coverage" NAME="broken_score_refactored Coverage Results" MODIFIED="1583715422811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
