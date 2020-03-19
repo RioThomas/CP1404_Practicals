@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15eb7969-6fa0-4c25-9623-97943a466f80" name="Default Changelist" comment="add functionality + modern code practice to subject_reader.py.">
-      <change afterPath="$PROJECT_DIR$/Prac_04/list_exercises.py" afterDir="false" />
+    <list default="true" id="15eb7969-6fa0-4c25-9623-97943a466f80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Prac_04/list_comprehensions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +187,7 @@
       <workItem from="1583646760958" duration="5263000" />
       <workItem from="1583993017620" duration="1286000" />
       <workItem from="1583996652678" duration="554000" />
-      <workItem from="1584503312666" duration="6127000" />
+      <workItem from="1584503312666" duration="6225000" />
     </task>
     <task id="LOCAL-00001" summary="Add Password Checker">
       <created>1583653163190</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584600852784</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add list_exercises.py">
+      <created>1584602069270</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584602069270</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,17 +294,18 @@
     <MESSAGE value="add functionality + modern code practice to subject_reader.py." />
     <MESSAGE value="add clearer variable naming" />
     <MESSAGE value="add data text file for subject_reader.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add data text file for subject_reader.py" />
+    <MESSAGE value="add list_exercises.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add list_exercises.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="720" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583638887165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583638887165" />
-    <state x="1112" y="101" key="CommitChangelistDialog2" timestamp="1584600851653">
+    <state x="1112" y="101" key="CommitChangelistDialog2" timestamp="1584602068195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1112" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584600851653" />
+    <state x="1112" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584602068195" />
     <state x="743" y="474" key="FileChooserDialogImpl" timestamp="1583653061835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
