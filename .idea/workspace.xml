@@ -187,7 +187,7 @@
       <workItem from="1583646760958" duration="5263000" />
       <workItem from="1583993017620" duration="1286000" />
       <workItem from="1583996652678" duration="554000" />
-      <workItem from="1584503312666" duration="3407000" />
+      <workItem from="1584503312666" duration="4754000" />
     </task>
     <task id="LOCAL-00001" summary="Add Password Checker">
       <created>1583653163190</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584575791812</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add functionality + modern code practice to subject_reader.py.">
+      <created>1584576523125</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584576523125</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,17 +270,18 @@
     <MESSAGE value="added warm-up" />
     <MESSAGE value="added cumulative income calculator, (total_income.py)." />
     <MESSAGE value="add starter code for subject_reader.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add starter code for subject_reader.py" />
+    <MESSAGE value="add functionality + modern code practice to subject_reader.py." />
+    <option name="LAST_COMMIT_MESSAGE" value="add functionality + modern code practice to subject_reader.py." />
   </component>
   <component name="WindowStateProjectService">
     <state x="720" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583638887165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583638887165" />
-    <state x="982" y="214" key="CommitChangelistDialog2" timestamp="1584575791036">
+    <state x="1112" y="101" key="CommitChangelistDialog2" timestamp="1584600627733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="982" y="214" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584575791036" />
+    <state x="1112" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584600627733" />
     <state x="743" y="474" key="FileChooserDialogImpl" timestamp="1583653061835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -282,22 +290,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="817" y="413" width="464" height="213" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583646795753" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1584576439265">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1584600587287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584576439265" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1584576439265">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584600587287" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1584600587287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584576439265" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1584576439264">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584600587287" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1584600587286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584576439264" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1584576439265">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584600587286" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1584600587287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584576439265" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584600587287" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1582678311071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -337,7 +345,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CP1404_Practicals$testing.coverage" NAME="testing Coverage Results" MODIFIED="1583997026112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
-    <SUITE FILE_PATH="coverage/CP1404_Practicals$subject_reader.coverage" NAME="subject_reader Coverage Results" MODIFIED="1584576439256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_04" />
+    <SUITE FILE_PATH="coverage/CP1404_Practicals$subject_reader.coverage" NAME="subject_reader Coverage Results" MODIFIED="1584600587266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_04" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$password_checker__1_.coverage" NAME="password_checker (1) Coverage Results" MODIFIED="1583712237191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$testing_file.coverage" NAME="testing file Coverage Results" MODIFIED="1583993264851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$broken_score_refactored.coverage" NAME="broken_score_refactored Coverage Results" MODIFIED="1583715422811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />

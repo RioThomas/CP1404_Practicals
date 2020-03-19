@@ -14,14 +14,14 @@ def main():
 def get_data():
     """Read data from file formatted like: subject,lecturer,number of students."""
     input_file = open(FILENAME)
-    data_text = ""
+    subject_data = ""
     for line in input_file:
         line = line.strip()             # Remove the \n
         parts = line.split(',')         # Separate the data into its parts
         parts[2] = int(parts[2])        # Make the number an integer (ignore PyCharm's warning)
-        data_text = data_text + "{} is taught by {:12} with {:3} students.\n".format(parts[0], parts[1], parts[2])
+        subject_data = subject_data + "{} is taught by {:12} with {:3} students.\n".format(parts[0], parts[1], parts[2])
     input_file.close()
-    return data_text
+    return subject_data
 
 
 main()
