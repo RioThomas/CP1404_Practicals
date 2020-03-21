@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15eb7969-6fa0-4c25-9623-97943a466f80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Prac_04/quick_picks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prac_04/.gitignore.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +187,7 @@
       <workItem from="1583646760958" duration="5263000" />
       <workItem from="1583993017620" duration="1286000" />
       <workItem from="1583996652678" duration="554000" />
-      <workItem from="1584503312666" duration="11634000" />
+      <workItem from="1584503312666" duration="11784000" />
     </task>
     <task id="LOCAL-00001" summary="Add Password Checker">
       <created>1583653163190</created>
@@ -280,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584755863030</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add quick_picks.py">
+      <created>1584759967140</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584759967140</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,17 +318,18 @@
     <MESSAGE value="add list_exercises.py" />
     <MESSAGE value="add list_comprehensions.py starter code" />
     <MESSAGE value="add list_comprehensions.py complete code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add list_comprehensions.py complete code" />
+    <MESSAGE value="add quick_picks.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add quick_picks.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="720" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583638887165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583638887165" />
-    <state x="1112" y="101" key="CommitChangelistDialog2" timestamp="1584755862080">
+    <state x="1112" y="101" key="CommitChangelistDialog2" timestamp="1584759966328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1112" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584755862080" />
+    <state x="1112" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584759966328" />
     <state x="743" y="474" key="FileChooserDialogImpl" timestamp="1583653061835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
