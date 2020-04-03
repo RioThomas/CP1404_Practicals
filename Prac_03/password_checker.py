@@ -1,21 +1,17 @@
 
 # Password Checker
 
+MIN_LEN = 5
+MAX_LEN = 20
+
 
 def main():
-    min_len = 5
-    max_len = 20
-
-    password = get_password(max_len, min_len)
-    star_line = ""
-
-    star_print(password, star_line)
+    password = get_password(MAX_LEN, MIN_LEN)
+    star_print(password)
 
 
-def star_print(password, star_list):
-    for x in range(0, len(password)):
-        star_list = star_list + "*"
-    print(star_list)
+def star_print(text_to_replace):
+    print('*' * len(text_to_replace))
 
 
 def get_password(max_len, min_len):
