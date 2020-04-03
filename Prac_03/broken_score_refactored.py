@@ -5,15 +5,14 @@ import random
 
 
 def main():
-    while True:
-        score = input("Enter score or 'r' for a random score: ")
-        
-        if score == "r":
-            score = random.randint(1, 100)
-            print("Score = " + str(score))
+    score = input("Enter score or 'r' for a random score: ")
 
-        score = float(score)
-        convert_score_to_grade(score)
+    if score == "r":
+        score = random.randint(1, 100)
+        print("Score = " + str(score))
+
+    score = int(score)
+    convert_score_to_grade(score)
 
 
 def convert_score_to_grade(score):
@@ -24,7 +23,7 @@ def convert_score_to_grade(score):
     elif score >= 50:
         print("Pass")
     else:
-        print("Bad")
+        print("Fail")
 
 
 main()

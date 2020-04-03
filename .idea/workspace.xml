@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15eb7969-6fa0-4c25-9623-97943a466f80" name="Default Changelist" comment="add hex_colours.py">
-      <change afterPath="$PROJECT_DIR$/Prac_05/emails.py" afterDir="false" />
+    <list default="true" id="15eb7969-6fa0-4c25-9623-97943a466f80" name="Default Changelist" comment="add word_occurrences.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prac_03/broken_score_refactored.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prac_03/broken_score_refactored.py" afterDir="false" />
     </list>
+    <list id="8302167c-be7d-4115-ac30-35cff7634443" name="improved broken_score_refactored.py" comment="" />
+    <list id="c7c9870e-182f-47db-9d9d-946a9661a720" name="Revert &quot;improved broken_score_refactored.py&quot;" comment="Revert &quot;improved broken_score_refactored.py&quot;&#10;&#10;This reverts commit 45747916" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +49,29 @@
       <recent name="D:\LIBRARIES\Documents\Github\CP1404_Practicals\Prac_03" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.emails">
+  <component name="RunManager" selected="Python.broken_score_refactored">
+    <configuration name="broken_score_refactored" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Lab Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prac_03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prac_03/broken_score_refactored.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="emails" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Lab Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,28 +108,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prac_05/hex_colours.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="misc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Lab Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/misc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.broken_score_refactored" />
         <item itemvalue="Python.emails" />
         <item itemvalue="Python.word_occurrences" />
         <item itemvalue="Python.hex_colours" />
         <item itemvalue="Python.state_names" />
-        <item itemvalue="Python.misc" />
       </list>
     </recent_temporary>
   </component>
@@ -364,10 +366,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583638887165" />
-    <state x="1112" y="101" key="CommitChangelistDialog2" timestamp="1585304742835">
+    <state x="1067" y="101" key="CommitChangelistDialog2" timestamp="1585892134622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1112" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585304742835" />
+    <state x="1067" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585892134622" />
     <state x="743" y="474" key="FileChooserDialogImpl" timestamp="1585288163830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -392,22 +394,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="938" height="348" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585305844780" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1585306277998">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585892164236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585306277998" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1585306277998">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585892164236" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585892164236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585306277998" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1585306277998">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585892164236" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585892164236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585306277998" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1585306277998">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585892164236" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585892164236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585306277998" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585892164236" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1585305903181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -428,6 +430,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583653078258" />
+    <state x="807" y="436" key="VCS.ChangelistChooser" timestamp="1585892125129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="436" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585892125129" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585304753979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -453,7 +459,7 @@
     <SUITE FILE_PATH="coverage/CP1404_Practicals$hex_colours.coverage" NAME="hex_colours Coverage Results" MODIFIED="1585291458263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_05" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$subject_reader.coverage" NAME="subject_reader Coverage Results" MODIFIED="1584600587266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_04" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$password_checker__1_.coverage" NAME="password_checker (1) Coverage Results" MODIFIED="1583712237191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
-    <SUITE FILE_PATH="coverage/CP1404_Practicals$broken_score_refactored.coverage" NAME="broken_score_refactored Coverage Results" MODIFIED="1583715422811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
+    <SUITE FILE_PATH="coverage/CP1404_Practicals$broken_score_refactored.coverage" NAME="broken_score_refactored Coverage Results" MODIFIED="1585892164230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$misc.coverage" NAME="misc Coverage Results" MODIFIED="1585289490822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$testing.coverage" NAME="testing Coverage Results" MODIFIED="1583997026112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_03" />
     <SUITE FILE_PATH="coverage/CP1404_Practicals$state_names.coverage" NAME="state_names Coverage Results" MODIFIED="1585290731683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac_05" />
