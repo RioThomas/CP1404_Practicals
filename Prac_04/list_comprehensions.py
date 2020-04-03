@@ -27,7 +27,7 @@ a_names = [name for name in names if name.startswith('A')]
 print(a_names)
 
 # use a list comprehension to create a list of all of the full_names
-lowercase_full_names = [name.split()[1] for name in full_names]
+lowercase_full_names = [name.lower() for name in full_names]
 print(lowercase_full_names)
 
 almost_numbers = ['0', '10', '21', '3', '-7', '88', '9']
