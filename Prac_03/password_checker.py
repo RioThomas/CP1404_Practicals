@@ -7,12 +7,9 @@ def main():
     max_len = 20
 
     password = get_password(max_len, min_len)
-    star_list = ""
+    star_line = ""
 
-    while min_len > len(password) or len(password) > max_len:
-        password = get_password(max_len, min_len)
-
-    star_print(password, star_list)
+    star_print(password, star_line)
 
 
 def star_print(password, star_list):
@@ -22,7 +19,9 @@ def star_print(password, star_list):
 
 
 def get_password(max_len, min_len):
-    password = input("Enter a password between {} and {} characters long: ".format(max_len, min_len))
+    password = ''
+    while min_len > len(password) or len(password) > max_len:
+        password = input("Enter a password between {} and {} characters long: ".format(max_len, min_len))
     return password
 
 
