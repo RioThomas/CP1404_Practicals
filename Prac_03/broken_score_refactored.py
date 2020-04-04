@@ -5,9 +5,9 @@ import random
 
 
 def main():
-    score = input("Enter score or 'r' for a random score: ")
+    score = input("Enter score leave blank for a random score: ")
 
-    if score == "r":
+    if score == '':
         score = random.randint(1, 100)
         print("Score = " + str(score))
 
