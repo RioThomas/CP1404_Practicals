@@ -3,10 +3,13 @@ CP1404 Practical
 Word occurrence finder.
 """
 
+# Enter custom text and the program will print the number of times each word occurs (alphabetically):
 text = "One One was a race horse, Two Two was one too, One One won one race, Two Two won one too."
-word_matrix = {}                # Dictionary to store each word and the number of mentions.
 
-text_edit = text.replace(".", '').replace(",", '')   # Remove any comma's and fullstops.
+# Dictionary to store each word and the number of mentions:
+word_matrix = {}
+
+text_edit = text.replace(".", '').replace(",", '')   # Remove any commas and fullstops.
 text_split = text_edit.lower().split(" ")            # Convert to lower case and split at spaces.
 
 max_len = len(max(text_split, key=len))              # Find the length of the longest word.
