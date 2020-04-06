@@ -5,7 +5,7 @@ Email / Name Scanner.
 
 
 def main():
-    email_matrix = {}
+    email_name_dictionary = {}
     email_input = input("Enter your email: ")
 
     while email_input != '':
@@ -14,19 +14,19 @@ def main():
         user_confirmation = input("Is your name {}? [y|n]: ".format(potential_name)).lower()
         if user_confirmation == "y" or user_confirmation == "":
             # Potential name was correct, assign to email.
-            email_matrix[email_input] = potential_name
+            email_name_dictionary[email_input] = potential_name
         elif user_confirmation == "n":
             # Potential name was incorrect, ask user for name.
-            email_matrix[email_input] = input("Name: ")
+            email_name_dictionary[email_input] = input("Name: ")
         else:
             print("Invalid Input.")
 
         email_input = input("Enter your email: ")
 
     print("")
-    for email_entry in email_matrix:
+    for email_entry in email_name_dictionary:
         # Print the name & email. Format: John Wick (john.wick@hitmail.com)
-        print("{} ({})".format(email_matrix[email_entry], email_entry))
+        print("{} ({})".format(email_name_dictionary[email_entry], email_entry))
 
 
 def extract_name_from_email(email):
