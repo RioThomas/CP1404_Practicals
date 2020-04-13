@@ -6,7 +6,7 @@ def main():
 
     my_guitar_list = []
     print("My guitars!")
-    name = str(input("Name: "))
+    name = input("Name: ")
 
     while name != "":
         year = int(input("Year: "))
@@ -17,10 +17,10 @@ def main():
         print("Added: {}".format(my_guitar))
         my_guitar_list.append(my_guitar)
 
-        name = str(input("Name: "))
+        name = input("Name: ")
 
-    my_guitar_list.append(Guitar("Gibson L-5 CES", 1922, 16035.40))
-    my_guitar_list.append(Guitar("Line 6 JTV-59", 2010, 1512.9))
+    # my_guitar_list.append(Guitar("Gibson L-5 CES", 1922, 16035.40))
+    # my_guitar_list.append(Guitar("Line 6 JTV-59", 2010, 1512.9))
 
     print("\nThese are my guitars:")
     for i, entry in enumerate(my_guitar_list, 1):
