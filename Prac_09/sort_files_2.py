@@ -10,7 +10,6 @@ import shutil
 def main():
     """Sort files into user customised categories based on there file type, create directories where none exist."""
     os.chdir('FilesToSort')
-    file_types = set([])
     file_type_dict = {}
 
     file_names = os.listdir('.')
@@ -20,7 +19,6 @@ def main():
         if os.path.isdir(file_name):
             continue
         file_type = file_name.split(".")[1]
-        file_types.add(file_type)
 
         if file_type not in file_type_dict:
             # Ask the user what category they would like to sort the file type into:
@@ -35,10 +33,6 @@ def main():
             # Create directory then move if it doesn't exist:
             os.mkdir(file_category)
             shutil.move(file_name, file_category)
-
-    # Data to test with:
-    # file_type_dict = {'jpg': 'images', 'gif': 'images', 'xls': 'data', 'xlsx': 'data', 'doc': 'text', 'docx': 'text',
-    #                   'txt': 'text', 'png': 'images'}
 
 
 main()
