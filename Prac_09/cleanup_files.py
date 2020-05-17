@@ -1,28 +1,17 @@
 """
 CP1404 Practical
-File Cleanup Task
+File name cleaning program.
 """
-
 import shutil
 import os
 
 
 def main():
-    """Clean files to ensure consistent + correct naming convention.."""
+    """Clean file names to ensure correct naming conventions."""
     print("Starting directory is: {}".format(os.getcwd()))
-
-    # Change to desired directory
-    os.chdir('Lyrics/Christmas')
 
     # Print a list of all files in current directory
     print("Files in {}:\n{}\n".format(os.getcwd(), os.listdir('.')))
-
-    # Make a new directory
-    try:
-        os.mkdir('temp')
-    except FileExistsError:
-        # File already exists
-        pass
 
     # Loop through each file in the (current) directory
     for filename in os.listdir('.'):
