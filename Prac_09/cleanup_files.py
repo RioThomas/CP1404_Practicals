@@ -13,19 +13,23 @@ def main():
         for filename in filenames:
             new_name = os.path.join(directory_name, clean_filename(filename))
             old_name = os.path.join(directory_name, filename)
-            print("{:50} {:<50}".format(old_name, new_name))
-            os.rename(old_name, new_name)
+            if old_name != new_name:
+                print("{:55} {:10} {:<55}".format(old_name, "->", new_name))
+                os.rename(old_name, new_name)
 
 
 def clean_filename(filename):
     """Return a 'fixed' version of filename."""
     new_name = ""
     for pos, char in enumerate(filename):
-        if filename[pos].isupper() and filename[pos-1].islower():
-            new_name += " " + filename[pos]
+        prev_char = filename[pos-1]
+        if pos == 0:
+            new_name += filename[pos].upper()
+        elif char.isupper() and prev_char.islower():
+            new_name += " " + char
         else:
-            new_name += filename[pos]
-    new_name = new_name.title().replace(" ", "_").replace("Txt", "txt")[1:]
+            new_name += char
+    new_name = new_name.title().replace(" ", "_").replace("Txt", "txt")
     return new_name
 
 
